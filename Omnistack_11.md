@@ -104,3 +104,12 @@ Use `npx knex init` para iniciar o Knex
 Entidade: tudo aquilo que representa lago que será salvo no banco de dados
 
 Pesquisar: HTTP Status Code
+
+
+
+## Aula 3
+
+Um Componente no React é uma função que retorna HTML
+
+JSX (JavaScript XML): quando o HTML tá integrado dentro ho JS
+
