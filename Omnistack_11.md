@@ -2,7 +2,7 @@
 
 ## 1ª Aula
 
-## Back-end
+### Back-end
 
 * Regras de negócio;
 * Conexão banco de dados;
@@ -29,7 +29,9 @@ Criar um arquivo `index.js`, será o arquivo principal da aplicação. Todo o c�
 
 Para executar a aplicação digite no terminal `node index.js`.
 
- ## React
+
+
+### React
 
 **Abordagem tradicional:** A cada requisição, o servidor retorna o conteúdo completo da página, contendo todo o HTML e CSS. Essa abordagem limita o front-end para browser já que o aplicativo mobile ou serviços externos não vão conseguir interpretar o HTML.
 
@@ -41,6 +43,64 @@ npx executa um pacote externo se a necessidade de intalá-lo (essa ferramenta fo
 
 Criando uma aplicação em React: `npx create-react-app frontend`
 
+Para rodar o projeto em React usamos o comando `npm start`.
 
 
-58:12
+
+### React Native
+
+**Abordagem tradicional:** Criamos uma aplicação para iOS e outra para Android, e nesses casos, o trabalho se torna repetido tanto para a criação quanto para as alterações no projeto.
+
+**Abordagem do React Native:** Todo o código é feito em JavaScript, esse código não é convertido em código nativo, melhor do que isso, o dispositivo passa a entender o código JavaScript e a Interface gerada é totalmente nativa.
+
+
+
+## Aula 2
+
+A rota, no backend é o conjunto completo: `localhost:3333/users`. O recurso seria `/users`, por exemplo.
+
+### Métodos HTTP
+
+A rota é acessível através do `app.get() `(método get).
+
+GET: Buscar uma informação do back-end
+
+POST: Criar uma informação no back-end
+
+PUT: Alterar uma informação no back-end
+
+DELETE: Deletar uma informação no back-end
+
+ ### Tipos de Parâmetros
+
+Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, Paginação) Exemplo: `localhost:3333/users?name=Lucas`
+
+Para acessar o parâmetro use `const params = request.query`.
+
+Route Params: Parâmetros utilizados para identificar recursos. Exemplo: `localhost:3333/users/:id`
+
+Para acessar o parâmetro use `const params = request.params`.
+
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
+
+Nodemon é uma ferramenta que a cada vez que um arquivo for salvo ele reinicia o servidor automaticamente. Para instalar: `npm install nodemon -D`  (O -D significa que é uma dependencia de desenvolvimento). Para executar: `npm nodemon index.js`. Ou crie um script em `package.json`: `"start": "nodemon index.js"`.
+
+### Bancos de Dados
+
+SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+
+NoSQL: MongoDB, CouchDB, etc
+
+Driver: SELECT * FROM users
+
+Query Builder: table('users').select('*')
+
+KNEX é o Query Builder mais famoso para Node.
+
+http://knexjs.org/
+
+Use `npx knex init` para iniciar o Knex
+
+Entidade: tudo aquilo que representa lago que será salvo no banco de dados
+
+Pesquisar: HTTP Status Code
