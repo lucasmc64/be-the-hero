@@ -1,30 +1,30 @@
-# Be The Hero
+# Be The Hero 🐱‍👤
 
 *Esse foi um projeto desenvolvido durante a Semana OmniStack 11.0.*
 
-## Objetivo
+## Objetivo 🎯
 
 Com um objetivo não apenas educacional, a princípio o projeto tem o intuito de ser um meio para ajudar instituições beneficentes locais, onde estas publicam um caso em que precisam de ajuda em busca de um herói para salvá-las.
 
-## Alguns detalhes
+## Alguns detalhes 📜
 
 * O backend é construído com Node.JS e SQLite;
 * O fontend é construído com o framework ReactJS;
 * O mobile é construído com o framework React Native e a plataforma Expo.
 
-## Como rodar o projeto em minha máquina?
+## Como rodar o projeto em minha máquina? 🤔
 
 O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou mesmo baixando o arqquivo compactado (.zip). Após isso, siga adiante.
 
-### Requisitos
+### Requisitos 🛠
 
 * Ter o [Node.JS](https://nodejs.org/) instalado no seu computador.
 
-### Instalando dependências
+### Instalando dependências 🔍
 
 Com o Node.JS instalado, acesse cada um dos diretórios (**backend**, **frontend** e **mobile**) via terminal e rode o comando `npm install`.
 
-### Rodando o Backend
+### Rodando o Backend 🥽
 
 Acesse o diretório **backend** via terminal e digite `npm start` e uma mensagem parecida com a seguinte aparecerá para você:
 
@@ -32,7 +32,7 @@ Acesse o diretório **backend** via terminal e digite `npm start` e uma mensagem
 
 Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
 
-### Rodando o Frontend
+### Rodando o Frontend ✨
 
 Acesse o diretório **frontend** via terminal e digite `npm start` e uma mensagem parecida com a seguinte aparecerá para você:
 
@@ -42,14 +42,14 @@ Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http:/
 
 Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
 
-### Rodando o Mobile
+### Rodando o Mobile 📱
 
-#### Requisitos
+#### Requisitos 🛠
 
 * Aplicativo Expo instalado no seu smartphone ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779));
 * [expo-cli](https://expo.io/learn) (Expo Command Line) instalado no seu computador.
 
-#### Passos
+#### Passos 🥾
 
 Acesse o diretório **mobile** via terminal e digite `npm start`. Caso você não tenha instalado o expo-cli aparecerá uma mensagem no terminal te informando isso e perguntando se você deseja instalá-lo, basta digitar `Y` e dar `enter`. 
 
