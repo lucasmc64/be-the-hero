@@ -1,69 +1,38 @@
-# Be The Hero 🐱‍👤
+![Be The Hero](readme-images/cover.png)
 
-*Esse foi um projeto desenvolvido durante a Semana OmniStack 11.0.*
+# Be The Hero :superhero:
 
-## Objetivo 🎯
+*This was a project developed during OmniStack Week 11.0.*
 
-Com um objetivo não apenas educacional, a princípio o projeto tem o intuito de ser um meio para ajudar instituições beneficentes locais, onde estas publicam um caso em que precisam de ajuda em busca de um herói para salvá-las.
+## Goal :dart:
 
-## Alguns detalhes 📜
+At first the project is intended to be a means to help local charities, where they publish a case in which they need help in search of a hero to save them.
 
-* O backend é construído com Node.JS e SQLite;
-* O fontend é construído com o framework ReactJS;
-* O mobile é construído com o framework React Native e a plataforma Expo.
+## Some details :scroll:
 
-## Como rodar o projeto em minha máquina? 🤔
+* The backend is built with Node.JS and SQLite.
+* The fontend is built with ReactJS.
+* The mobile is built with React Native aided by Expo.
 
-O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou mesmo baixando o arqquivo compactado (.zip). Após isso, siga adiante.
+## How do I run the project on my machine? :thinking:
 
-### Requisitos 🛠
+The first step is to clone the project, either via terminal or GitHub Desktop, or even by downloading the compressed file (.zip). After that, go ahead.
 
-* Ter o [Node.JS](https://nodejs.org/) instalado no seu computador.
+### Requirements :hammer_and_wrench:
 
-### Instalando dependências 🔍
+* Have [Node.JS](https://nodejs.org/) installed.
+* (Optional) Have [Yarn](https://yarnpkg.com/) installed.
 
-Com o Node.JS instalado, acesse cada um dos diretórios (**backend**, **frontend** e **mobile**) via terminal e rode o comando `npm install`.
+### Installing dependencies :mag:
 
-### Rodando o Backend 🥽
+With Node.JS installed, access each of the directories (**backend**, **frontend** and **mobile**) via terminal and run the `npm install` command. If you prefer to use Yarn, just run the command `yarn`.
 
-Acesse o diretório **backend** via terminal e digite `npm start` e uma mensagem parecida com a seguinte aparecerá para você:
+### Running the Backend :goggles: 
 
-![Resultado (backend) do npm start no terminal](./readme-images/backend.png)
+Access the **backend** directory via terminal and type `npm start` and a message similar to the following will appear for you:
 
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
+![Result of the command in the terminal](readme-images/backend.png)
 
-### Rodando o Frontend ✨
+Note: If this was not the result, check that the requirements and previous steps have been met.
 
-Acesse o diretório **frontend** via terminal e digite `npm start` e uma mensagem parecida com a seguinte aparecerá para você:
-
-![Resultado (frontend) do npm start no terminal](./readme-images/frontend.png)
-
-Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http://localhost:3000/ (onde o projeto estará rodando).
-
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
-
-### Rodando o Mobile 📱
-
-#### Requisitos 🛠
-
-* Aplicativo Expo instalado no seu smartphone ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779));
-* [expo-cli](https://expo.io/learn) (Expo Command Line) instalado no seu computador.
-
-#### Passos 🥾
-
-Acesse o diretório **mobile** via terminal e digite `npm start`. Caso você não tenha instalado o expo-cli aparecerá uma mensagem no terminal te informando isso e perguntando se você deseja instalá-lo, basta digitar `Y` e dar `enter`. 
-
-![Quer instalar o expo-cli?](./readme-images/expo-cli.png)
-
-Em seguida (e caso já tivesse o expo-cli instalado), uma mensagem parecida com a seguinte aparecerá para você:
-
-![Parte 1 - expo-cli terminal](./readme-images/mobile-1.png)
-![Parte 2 - expo-cli terminal](./readme-images/mobile-2.png)
-
-Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http://localhost:9002/ com a seguinte tela:
-
-![Expo no navegador](./readme-images/navegador-expo.png)
-
-Como vocês puderam reparar, há um QRCode tanto no terminal, quanto no site que se abriu (ele são iguais). Agora, abra o aplicativo Expo em seu smartphone, escaneie o QRCode e aguarde até que o projeto seja sincronizado.
-
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
+### Running the Frontend ✨
