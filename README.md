@@ -29,7 +29,7 @@ With Node.JS installed, access each of the directories (**backend**, **frontend*
 
 ### Running the Back end :goggles: 
 
-Access the **backend** directory via terminal and type `npm start` and a message similar to the following will appear for you:
+Access the **backend** directory via terminal, run the command `npm start` or` yarn start` and a message similar to the following will appear for you:
 
 ![Result of the command in the terminal](readme-images/backend.png)
 
@@ -37,7 +37,7 @@ Access the **backend** directory via terminal and type `npm start` and a message
 
 ### Running the Front end :sparkles:
 
-Access the ** frontend ** directory via terminal, run `npm start` or` yarn start`. A message similar to the following will appear for you:
+Access the **frontend** directory via terminal, run `npm start` or `yarn start`. A message similar to the following will appear for you:
 
 ![Result of the command in the terminal](readme-images/frontend.png)
 

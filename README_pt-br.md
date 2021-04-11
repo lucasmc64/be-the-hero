@@ -29,7 +29,7 @@ Com o Node.JS instalado, acesse cada um dos diretórios (**backend**, **frontend
 
 ### Rodando o Back end :goggles:
 
-Acesse o diretório **backend** via terminal e digite `npm start` e uma mensagem parecida com a seguinte aparecerá para você:
+Acesse o diretório **backend** via terminal, rode o comando `npm start` ou `yarn start` e uma mensagem parecida com a seguinte aparecerá para você:
 
 ![Resultado do comando no terminal](readme-images/backend.png)
 
