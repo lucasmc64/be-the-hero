@@ -58,8 +58,7 @@ Acesse o diretório **mobile** via terminal e execute `npm start` ou `yarn start
 
 Em seguida, uma mensagem parecida com a seguinte aparecerá para você:
 
-![Parte 1 - expo-cli terminal](readme-images/mobile-1.png)
-![Parte 2 - expo-cli terminal](readme-images/mobile-2.png)
+![Parte 1 - expo-cli terminal](readme-images/mobile.png)
 
 Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http://localhost:9002/ com a seguinte tela:
 
