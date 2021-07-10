@@ -2,7 +2,7 @@
 
 # :superhero: Be The Hero
 
-*This was a project developed during OmniStack Week 11.0.*
+> This was a project developed during OmniStack Week 11.0.
 
 ## :dart: Goal
 
@@ -71,3 +71,11 @@ As you can see, there is a QRCode both on the terminal and on the website that o
 ## :tada: If everything went well...
 
 Now you are running the project beautifully!
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
+
+---
+
+Made with :purple_heart: by Lucas Coutinho :wave: [Get in touch!](https://www.linkedin.com/in/lucasmc64/)
