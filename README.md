@@ -10,9 +10,9 @@ At first the project is intended to be a means to help local charities, where th
 
 ## :scroll: Some details
 
-* The back end is built with Node.JS and SQLite.
-* The font end is built with ReactJS.
-* The mobile is built with React Native aided by Expo.
+- The back-end is built with Node.JS and SQLite.
+- The font-end is built with ReactJS.
+- The mobile is built with React Native aided by Expo.
 
 ## :thinking: How do I run the project on my machine?
 
@@ -20,8 +20,8 @@ The first step is to clone the project, either via terminal or GitHub Desktop, o
 
 ### :hammer_and_wrench: Requirements
 
-* [Node.JS](https://nodejs.org/).
-* (Optional) [Yarn](https://yarnpkg.com/).
+- [Node.JS](https://nodejs.org/).
+- (Optional) [Yarn](https://yarnpkg.com/).
 
 ### :mag: Installing dependencies
 
@@ -49,12 +49,12 @@ Automatically, in your default browser, a tab will open for the link http://loca
 
 #### :hammer_and_wrench: Requirements
 
-* Expo app: ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779)).
-* [Expo Command Line](https://expo.io/learn).
+- Expo app: ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779)).
+- [Expo Command Line](https://expo.io/learn).
 
 #### :hiking_boot: Steps
 
-Access the **mobile** directory via terminal and run `npm start` or` yarn start`.
+Access the **mobile** directory via terminal and run `npm start` or ` yarn start`.
 
 Then, a message similar to the following will appear for you:
 

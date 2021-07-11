@@ -8,8 +8,8 @@
     "test": "cross-env NODE_ENV=test jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "lucasmc64",
+  "license": "MIT",
   "dependencies": {
     "celebrate": "^12.0.1",
     "cors": "^2.8.5",
